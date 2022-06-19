@@ -1,0 +1,23 @@
+<!doctype html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
+        <script type="text/javascript" src="{{ url_for('static',filename='script/script.js') }}"></script>
+    </head>
+    <body>
+        <h1>HTML FORM DEMO</h1>
+
+        <form action="/submit" method="post">
+            <label for="Science">Science:</label><br>
+            <input type="text" id="science" name="science" value="0"><br>
+            <label for="stats">Stats:</label><br>
+            <input type="text" id="stats" name="stats" value="0"><br><br>
+            <label for="pyhton">Python:</label><br>
+            <input type="text" id="python" name="python" value="0"><br><br>
+            <label for="datascience">Data Science:</label><br>
+            <input type="text" id="datascience" name="datascience" value="0"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>

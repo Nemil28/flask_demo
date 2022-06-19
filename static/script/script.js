@@ -1,0 +1,1 @@
+alert('Demo page to learn Flask Loaded')
